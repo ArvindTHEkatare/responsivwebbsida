@@ -1,0 +1,200 @@
+.hamburger {display: none;}
+
+#container1 {
+    margin-top: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+#container2 {
+    margin-top: -2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+#container3 {
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+
+#container4 {
+    margin-top: -1%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.nav {
+    margin-top: 0.9%;
+    padding: 2.4% 15%;
+    background-color: red;
+    margin-left: 1%;
+    display: block;
+    
+}
+
+.main {
+display: inline;
+background-color: red;
+padding: 8% 12%;
+
+}
+
+.aside {
+    margin-left: 1%;
+    display: inline-block;
+    background-color: red;
+    padding: 8% 3%;
+}
+
+#container3 {
+    margin-top: -2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    }
+
+.column1, .column2, .column4, .column5
+{
+background-color: red;
+margin-left: 01%;
+padding: 1%;
+padding: 3% 4.9%;
+
+}
+
+.column1 {margin-left: 0.1%;}
+
+.column4 {margin-left: 0.1%;}
+
+
+
+
+.column3 {
+margin-left: 1%;
+padding:3% 3.9%; 
+background-color: red;
+}
+
+
+.column6 {
+    margin-left: 1%;
+    padding:3% 3.9%; 
+    background-color: red;
+    }
+
+@media screen and (max-width: 768px) 
+{
+    .hamburger {display: none;}
+
+    .column3, .column6 {
+        display: none;
+    }
+
+    #container2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .main, .aside {
+        display: block;
+    }
+    .main {
+        padding: 10% 21.2%;
+        margin-top: 1%;
+    }
+
+    .nav {
+
+        padding: 4.1% 15%;
+        background-color: red;
+        margin-left: 1%;
+        margin-top: 1.5%;
+        display: block;
+    }
+    .aside {
+        padding: 5% 21.2%;
+        margin-top: -1.5%;
+        margin-left: -0%;
+    }
+
+    .column1, .column2, .column4, .column5
+        {
+        margin-top: 1%;
+        background-color: red;
+        margin-left: 1%;
+        padding: 1%;
+        padding: 3% 8.9%;
+        }
+
+    .column1, .column4 {
+        margin-top: 0.4%;
+        margin-left: 0%;
+    }
+    
+    .column2, .column5 {
+        margin-top: 0.4%;
+        margin-left: 1.1%;
+    }
+}
+    
+@media screen and (max-width: 480px) {
+    .column1, .column2, .column3, .column4, .column5, .column6, .aside {
+        display: none;
+    }
+
+    .logo-and-hamburger img {
+        display: inline-block;
+        
+        
+    }
+    
+    .logo {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 100px; 
+        height: 40px;  
+    }
+    
+    .hamburger {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    
+
+    #container1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav {
+        
+        padding: 14% 27.5%;
+        background-color: red;
+        margin-left: 0.1%;
+        margin-top: 2%;
+        display: block;
+    }
+    .main {
+        padding: 17% 19%;
+        margin-top: 1%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
